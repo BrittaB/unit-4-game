@@ -1,0 +1,33 @@
+*{
+    background-image: url("https://st2.depositphotos.com/1592314/9606/i/950/depositphotos_96063522-stock-photo-shiny-silver-background-abstract-texture.jpg");
+    background-color: #54a1ce;
+   }
+
+#crystalCol{
+    background: orange;
+    float:left;
+    padding:10px;
+    color:white;
+}
+
+#instructions{
+    margin:2px;
+    float:left;
+    font-family: Arial;
+    background: beige;
+    color:teal;
+    float:left;
+}
+#goal{
+    padding:20%;
+    float:left;
+    color: purple;
+    background: lightseagreen;
+}
+#winsLose{
+    padding:10%;
+    float: left;
+    color:purple;
+    background: seagreen;
+
+}
