@@ -6,7 +6,7 @@
 #crystalCol{
     background: orange;
     float:left;
-    padding:10px;
+    padding:20px;
     color:white;
 }
 
@@ -25,9 +25,12 @@
     background: lightseagreen;
 }
 #winsLose{
-    padding:10%;
+    padding:50px;
     float: left;
     color:purple;
-    background: seagreen;
+    background: skyblue;
 
+}
+#crystals{
+    padding:10%;
 }
