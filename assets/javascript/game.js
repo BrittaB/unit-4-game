@@ -11,7 +11,7 @@ var crystalYel= 0;
 var totalScore = crystalBlu + crystalPur + crystalRed + crystalYel;
 
 //write a function with a random number for goal total
-$(document).ready(function randomNumber() {
+$(randomNumber).ready(function () {
     $("#random-button").on("click", function() {
       var random = Math.floor(Math.random() * 1000) + 1;
       $("#random-number").text(random);
@@ -20,6 +20,15 @@ $(document).ready(function randomNumber() {
 //write a function that puts the total number of all of the crystals within the #goal placement
 
 //write a function that creates buttons for each of the crystals
+$("#crytalBlu").on("click", function() {
+  audioElement.play();
+$("#crystalPur").on("click", function() {
+  audioElement.play();
+$("#crystalRed").on("click", function() {
+  audioElement.play();
+$("#crystalYel").on("click", function() {
+  audioElement.play();
+  
 $(document).ready(function(){
   $("img").click(function(){
     $(this).hide();
